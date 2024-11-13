@@ -26,7 +26,7 @@
 - `Descarte de resíduos`: Informa o resíduo que deseja descartar e recebe uma lista com lugares adequados.
 - `Cadastro de cooperativas`: As cooperativas de reciclagem poderão se cadastrar e informar os itens que desejam receber.
 - `Cadastro de usuário:`: Os usuários poderão se cadastrar para guardar seus dados.
-- `Favoritar `
+- `Mapa Interativo`: Mapa interativo para facilitar a interação do usuário com o site.
 
 <h2>Acesso ao Projeto</h2>
 <p>
