@@ -26,7 +26,7 @@
 <p>
   Pretendo passar com o projeto por 3 estágios base, para ter uma evolução lógica e saudável para a minha rotina de universitário.
   
-  -`Estágio 1 - Landing page informativa`: Nesse estágio o usuário é capaz de ver as opções de cooperativas e pontos de coleta para os diversos tipos de categorias de resíduos;
+  - `Estágio 1 - Landing page informativa`: Nesse estágio o usuário é capaz de ver as opções de cooperativas e pontos de coleta para os diversos tipos de categorias de resíduos;
   - `Estágio 2 - Cadastros e busca`: Nesse estágio será implementado a possibilidade de cadastrar cooperativas de reciclagem e usuários, trazendo a possibilidade do site se alimentar sozinho e ser utilizado em outras regiões;
   - `Estágio 3 - Mapa interativo`: Nesse estágio o usuário poderá visualizar pontos no mapa com a localização de pontos de coleta.
 </p>
