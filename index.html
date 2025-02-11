@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="src/styles/styles.css"/>
         <link rel="stylesheet" href="src/styles/header.css"/>
+        <link rel="stylesheet" href="src/styles/home.css"/>
         
         <title>CPcicla</title>
     </head>
@@ -15,9 +16,9 @@
         <header>
             <!--Barra de navegação. Logo inclusa porque funcionará como botão de home-->
             <nav id="navbar">
-                <figure>
-                    <img src="src/images/logo/escura-480px.png" alt="Logo do CPcicla escura" id="nav_logo">
-                </figure>
+                <a href="index.html" id="link_logo">
+                        <img src="src/images/logo/clara-480px.png" alt="Logo do CPcicla escura" id="nav_logo">
+                </a>
 
                 <ul id="nav_list">
                     <li class="nav-item active">
@@ -31,13 +32,36 @@
                     </li>
                 </ul>
 
-                <button class="btn-default"> Cadastre-se </button>
+                <button class="btn-default" id="btn_register"> Cadastre-se </button>
             </nav>
 
         </header>
 
-        <main>
-
+        <main id="content">
+            <session id="home">
+                <!--Grab Attention para destacar a informação importante do site-->
+                <div id="grab_attention">
+                    <h1 class="title">
+                        Se informe e faça parte da 
+                        <span>Circularidade</span>
+                    </h1>
+                    
+                    <p class="subtitle">
+                        <span><a href="https://www.ellenmacarthurfoundation.org/pt/temas/economia-circular-introducao/visao-geral"
+                            id="grab_attention_link">
+                            Clique aqui</a>
+                        </span> 
+                        e entenda como a circularidade dos resíduos pode salvar o planeta.
+                    </p>
+                
+                </div>
+                
+                <div class="Banner">
+                    <img src="src/images/elementos/foto-index-firstframe.png" 
+                        alt="Imagem de uma ecobag e um celular com símbolo de reciclagem"
+                        id="index_banner_principal">
+                </div>
+            </session>
         </main>
         <footer>
 
