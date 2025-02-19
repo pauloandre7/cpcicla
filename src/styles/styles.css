@@ -16,7 +16,6 @@ session {
 }
 
 .btn-default {
-    
     display: flex;
     align-items: center;
     vertical-align: center;
@@ -33,5 +32,6 @@ session {
 }
 
 .btn-default:hover {
-    background-color: #1f5014d5;
+    cursor: pointer;
+    background-color: #a9bea2;
 }

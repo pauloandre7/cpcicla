@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh; /* vh representa a aultura da viewport*/
+    display: flex; /*Ferramenta para habilitar ferramentas de responsividade e controle de posicionamento*/
+    justify-content: center; /*Alinha horizontalmente no centro*/
+    align-items: center; /*Alinha verticalmente no centro*/
+    background: #7d9b76;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-banner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#form_image {
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /*vai cortar a imagem, se necessário*/
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem; /* Cria um espaço interno*/
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.form-header{
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-button{
+    display: flex;
+    align-items: center;
+}
+
+.form-button{
+    background-color: #457d58;
+    color: #f6f6e9;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #457d58;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #457d58;
+}
+
+.input-box label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #272727;
+}
+
+.add-button {
+    margin-top: 10%;
+}
+
+.add-button button{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    background-color: #fff9ea;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    color: #457d58;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    transition: background-color .3s ease;
+}

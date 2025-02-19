@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Link para biblioteca de ícones-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="src/styles/styles.css"/>
+        <link rel="stylesheet" href="src/styles/register.css"/>
+        
+        
+        <title>CPcicla</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-banner">
+                <img id="form_image" src="src/images/capa-register/banner-register-unic.svg">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="form-title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        
+                        <div class="back-button">
+                            <button class="btn-default form-button"
+                                onclick="window.location.href='index.html'">
+                                Voltar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-input-group">
+                        <div class="input-box">
+                            <label for="name">Nome</label>
+                            <input id="name" type="text" name="name"
+                                placeholder="Digite o nome do usuário" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email"
+                                placeholder="Informe o e-mail" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="pass">Senha</label>
+                            <input id="pass" type="password" name="pass"
+                                placeholder="Informe a senha" required>
+                        </div>
+
+                    </div>
+
+                    <div class="add-button">
+                        <button class="btn-default add-button">
+                            Adicionar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+ 
+</html>
