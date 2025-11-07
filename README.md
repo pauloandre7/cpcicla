@@ -1,6 +1,6 @@
 <h1> CPcicla </h1>
 <p align="center">
-  <img loading="lazy" src="https://img.shields.io/badge/Status-Em_Desenvolvimento-green"/>
+  <img loading="lazy" src="https://img.shields.io/badge/Status-Pausado-red"/>
   <img loading="lazy" src="https://img.shields.io/badge/UTFPR-ebd834"/>
   <img loading="lazy" src="https://img.shields.io/badge/Sustentabilidade-green"/>
 </p>
